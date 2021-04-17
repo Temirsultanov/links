@@ -197,6 +197,9 @@ footer{
     background-color: white;
     color: #6743fa;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Raleway';
     font-weight: 900;
     font-style: italic;
@@ -204,7 +207,6 @@ footer{
 }
 .font-big{
     font-size: 50px;
-    line-height: 70px;
 }
 .settings__font .font-active{
     background-color: #6743fa;
