@@ -170,8 +170,6 @@ footer{
 }
 .body-fontmini .theme__button svg{
     width: 35px;
-    margin-left: 1px;
-    margin-top: 2px;
     height: 35px;
 }
 .theme__button-dark{
@@ -228,7 +226,7 @@ footer{
 }
 .body-dark h1{
     -webkit-text-fill-color: transparent;
-    background: linear-gradient(-45deg, #1cddff, #43fa95);
+    background: linear-gradient(-45deg, #1cddff , #43fa95);
     -webkit-background-clip: text;
 }
 .body-dark .h2{
