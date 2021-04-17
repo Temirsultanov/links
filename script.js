@@ -45,3 +45,8 @@ let onThemeButtonClick = function () {
     body.classList.toggle('body-dark');
 };
 themeButton.addEventListener('click', onThemeButtonClick);
+
+let linkCount = document.querySelector('.link-count');
+let groupCount = document.querySelector('.group-count')
+linkCount.textContent = 'Всего ссылок: ' + document.querySelectorAll('a').length;
+groupCount.textContent = 'Всего групп: ' + document.querySelectorAll('ul').length;
