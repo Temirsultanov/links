@@ -158,7 +158,7 @@ footer{
     height: 60px;
 }
 .body-fontmini .font-big{
-    font-size: 30px;
+    font-size: 25px;
     line-height: 30px;
 }
 .body-fontmini .font-mini{
@@ -169,8 +169,8 @@ footer{
     width: 60px;
 }
 .body-fontmini .theme__button svg{
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
 }
 .theme__button-dark{
     background-color: white;
@@ -205,6 +205,9 @@ footer{
     font-style: italic;
     margin-right: 20px;
 }
+.body-fontmini .settings__font button{
+    margin-right: 10px;
+}
 .font-big{
     font-size: 50px;
 }
@@ -237,6 +240,12 @@ footer{
     background: linear-gradient(-45deg, #43fa95, #1cddff);
     -webkit-background-clip: text;
 }
+.body-fontmini .burger{
+    top: 40px;
+}
+.body-hidden{
+    overflow-y: hidden;
+}
 @media (max-width: 900px) {
     h1{
         font-size: 40px;
@@ -256,7 +265,7 @@ footer{
     }
     body{
         padding-left: 20px;
-        padding-right: 20px;
+        padding-right: 25px;
     }
     .settings{
         padding-left: 20px;

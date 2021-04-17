@@ -16,15 +16,16 @@ buttons.forEach(button => {
 
 let burger = document.querySelector('.burger');
 let settings = document.querySelector('.settings');
+let body = document.body;
 let onBurgerClick = function () {
     burger.classList.toggle('burger-active');
     settings.classList.toggle('settings-active');
+    body.classList.toggle('body-hidden');
 };
 burger.addEventListener('click', onBurgerClick);
 
 let fontButtonMini = document.querySelector('.font-mini');
 let fontButtonBig = document.querySelector('.font-big');
-let body = document.body;
 let onFontMiniClick = function () {
     fontButtonMini.classList.add('font-active');
     fontButtonBig.classList.remove('font-active');
