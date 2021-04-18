@@ -23,7 +23,23 @@ h1{
     font-style: italic;
     margin-bottom: 0px;
 }
+input.h1{
+    font-weight: 900;
+    font-size: 50px;
+    border: 0;
+    outline: 0;
+    margin: 0;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(-45deg, #FA4343, #6743FA);
+    -webkit-background-clip: text;
+    color: #0087D2;
+    font-style: italic;
+    font-family: 'Raleway';
+}
 .body-fontmini h1{
+    font-size: 20px;
+}
+.body-fontmini .h1{
     font-size: 20px;
 }
 .body-fontmini .h2{
@@ -245,6 +261,11 @@ footer{
     background: linear-gradient(-45deg, #1cddff , #43fa95);
     -webkit-background-clip: text;
 }
+.body-dark .h1{
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(-45deg, #1cddff , #43fa95);
+    -webkit-background-clip: text;
+}
 .body-dark .h2{
     -webkit-text-fill-color: transparent;
     background: linear-gradient(-45deg, #43fa95, #1cddff);
@@ -292,6 +313,11 @@ footer{
     background: #000;
     -webkit-background-clip: text;
 }
+.body-bw .h1{
+    -webkit-text-fill-color: transparent;
+    background: #000;
+    -webkit-background-clip: text;
+}
 .body-bw .color-button__left{
     background: linear-gradient(90deg, #fa4343, #6743fa)
 }
@@ -313,8 +339,16 @@ footer{
     background: #fff;
     -webkit-background-clip: text;
 }
+.body-dark.body-bw .h1{
+    -webkit-text-fill-color: transparent;
+    background: #fff;
+    -webkit-background-clip: text;
+}
 @media (max-width: 900px) {
     h1{
+        font-size: 40px;
+    }
+    .h1{
         font-size: 40px;
     }
     .h2{
@@ -343,6 +377,9 @@ footer{
         top: 47px;
     }
     h1{
+        font-size: 28px;
+    }
+    .h1{
         font-size: 28px;
     }
     .h2{
