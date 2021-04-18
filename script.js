@@ -50,3 +50,9 @@ let linkCount = document.querySelector('.link-count');
 let groupCount = document.querySelector('.group-count')
 linkCount.textContent = 'Всего ссылок: ' + document.querySelectorAll('a').length;
 groupCount.textContent = 'Всего групп: ' + document.querySelectorAll('ul').length;
+
+let colorButton = document.querySelector('.color-button');
+let onColorButtonClick = function () {
+    body.classList.toggle('body-bw');
+};
+colorButton.addEventListener('click', onColorButtonClick);

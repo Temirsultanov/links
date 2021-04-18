@@ -146,9 +146,14 @@ footer{
 .settings-active{
     display: block;
 }
+.settings__theme{
+    display: flex;
+    align-items: center;
+}
 .theme__button{
     width: 100px;
     height: 100px;
+    margin-right: 20px;
     background-color: #6743fa;
     border-radius: 50%;
     border: 3px solid #6743FA;
@@ -167,10 +172,15 @@ footer{
 .body-fontmini .theme__button{
     height: 60px;
     width: 60px;
+    margin-right: 10px;
 }
 .body-fontmini .theme__button svg{
     width: 30px;
     height: 30px;
+}
+.body-fontmini .color-button{
+    height: 60px;
+    width: 60px;
 }
 .theme__button-dark{
     background-color: white;
@@ -249,6 +259,59 @@ footer{
 .link-count, .group-count{
     padding-left: 0;
     margin-top: 20px;
+}
+.color-button__left{
+    background-color: #000;
+}
+.color-button__right{
+    background-color: #fff;
+}
+.color-button div{
+    width: 50%;
+    height: 100%;
+}
+.color-button{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid black;
+    background-color: transparent;
+    padding: 0;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+.body-dark .color-button{
+    border-color: white;
+    transition: transform 0.3s ease;
+    transform: rotate(180deg);
+}
+.body-bw h1{
+    -webkit-text-fill-color: transparent;
+    background: #000;
+    -webkit-background-clip: text;
+}
+.body-bw .color-button__left{
+    background: linear-gradient(90deg, #fa4343, #6743fa)
+}
+.body-bw .color-button__right{
+    background: linear-gradient(90deg, #6743fa,#1cddff, #43fa95)
+}
+.body-bw .h2{
+    -webkit-text-fill-color: transparent;
+    background: #000;
+    -webkit-background-clip: text;
+}
+.body-dark.body-bw .h2{
+    -webkit-text-fill-color: transparent;
+    background: #fff;
+    -webkit-background-clip: text;
+}
+.body-dark.body-bw h1{
+    -webkit-text-fill-color: transparent;
+    background: #fff;
+    -webkit-background-clip: text;
 }
 @media (max-width: 900px) {
     h1{
