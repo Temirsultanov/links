@@ -28,7 +28,7 @@ input.h1{
     font-size: 50px;
     border: 0;
     outline: 0;
-    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
     margin: 0;
     -webkit-text-fill-color: transparent;
     background: linear-gradient(-45deg, #FA4343, #6743FA);
@@ -349,7 +349,7 @@ footer{
     h1{
         font-size: 40px;
     }
-    .h1{
+    input.h1{
         font-size: 40px;
     }
     .h2{
@@ -380,7 +380,7 @@ footer{
     h1{
         font-size: 28px;
     }
-    .h1{
+    input.h1{
         font-size: 28px;
     }
     .h2{
